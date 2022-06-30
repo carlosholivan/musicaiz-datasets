@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.ipynb_checkpoints/
+*.idea/
+*.txt
+
+# Generated files
+.DS_Store
+.vscode/
+
+# direnv
+.env
+
+# vim
+*.swp
