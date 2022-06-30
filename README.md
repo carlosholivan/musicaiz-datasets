@@ -21,33 +21,12 @@ The data is organized as follows:
  ┃ ...
 ````
 
-The current tree is the following:
+The current tree contains:
 
-````
-📦musanalysis_datasets
- ┣ 📂jsb_chorales
- ┃ ┗ 📂mmm
- ┃   ┗ 📂4_bars
- ┃   ┃ ┗ 📂train
- ┃   ┃ ┃ ┗ 📜token-sequences.txt
- ┃   ┃ ┗ 📂validation
- ┃   ┃ ┃ ┗ 📜token-sequences.txt
- ┃   ┃ ┗ 📂test
- ┃   ┃ ┃ ┗ 📜token-sequences.txt
- ┃   ┃ ┗ 📜vocabulary.txt
- ┃   ┗ 📂complete
- ┃     ┗ 📂train
- ┃     ┃ ┗ 📜token-sequences.txt
- ┃     ┗ 📂validation
- ┃     ┃ ┗ 📜token-sequences.txt
- ┃     ┗ 📂test
- ┃     ┃ ┗ 📜token-sequences.txt
- ┃     ┗ 📜vocabulary.txt
- ┣ 📂maestro
- ┃ ...
- ┣ 📂lmd_clean
- ┃ ...
-````
+	- dataset_name: jsbchorales, maestro
+	- tokenizer: mmm
+	- tokenization_type: `4_bars` and `all_bars`
+
 
 The available datasets are:
 
