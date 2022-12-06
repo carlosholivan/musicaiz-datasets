@@ -64,6 +64,21 @@ To install musicaiz, clone the repository for the latest changes or simply type 
 
 [musicaiz docs](https://carlosholivan.github.io/musicaiz)
 
+## Cite
+
+If you use any of these datasets in your work, please cite the dataset(s) you use and musicaiz software:
+
+````
+@misc{hernandezolivan22musicaiz,
+  doi = {10.48550/ARXIV.2209.07974},
+  url = {https://arxiv.org/abs/2209.07974},
+  author = {Hernandez-Olivan, Carlos and Beltran, Jose R.},
+  title = {musicaiz: A Python Library for Symbolic Music Generation, Analysis and Visualization},
+  publisher = {arXiv},
+  year = {2022},
+}
+````
+
 ## Disclaimer
 
 These datasets are Open Source and the original files belong to their corresponding authors.
