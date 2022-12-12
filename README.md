@@ -28,7 +28,7 @@ The current tree contains:
 	- tokenization_type: `4_bars` and `all_bars`
 
 
-The available datasets are:
+The available tokenized datasets are:
 
 - [JSB Chorales](jsb_chorales/)<br/>
 
@@ -41,6 +41,14 @@ Other datasets that could be included in the future:
 - [Pop909](pop909/)<br/>
 
 - [MetaMIDI](metamidi/)<br/>
+
+The bps fh dataset for harmonic analysis is:
+
+- [JSB Chorales](bps_fh/)<br/>
+
+This dataset is not tokenized since is used for harmonic analysis. We
+trad the notes.csv of each file and convert it to a midi file that
+can be loaded by packages that work with MIDI files.
 
 
 ## License
@@ -80,9 +88,6 @@ If you use any of these datasets in your work, please cite the dataset(s) you us
 ````
 
 ## Disclaimer
-
-These datasets are Open Source and the original files belong to their corresponding authors.
-If you are an author of any of these datasets and you 
 
 This is a repository that hosts processed open Source datasets to train DL models. Each of these datasets have its corresponding license. It the responsability of the users to determine whether they have permission to use the dataset under the dataset's license.
 
